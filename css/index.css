@@ -1,3 +1,14 @@
 /* font families */
 /* font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lobster', cursive; */
+
+/* header */
+header {
+    display: block;
+    background-color: #FFECFF; 
+    height: 100px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
