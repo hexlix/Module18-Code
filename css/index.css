@@ -9,6 +9,31 @@ header {
     height: 100px;
 }
 
-h1 {
+.logo {
+    float: left;
+    width: 30%;
+}
+
+.logo img {
+    float: left;
+    justify-content: center;
+    padding: 10px;
+}
+
+header h1 {
     font-family: 'Lobster', cursive;
 }
+
+
+/* hero image */
+.hero-img {
+    display: block;
+    background-image: url(../images/banner\ 1.png);
+    background-position: center;
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+
+}
+
+/* Footer */
