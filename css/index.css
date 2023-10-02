@@ -2,16 +2,23 @@
 /* font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lobster', cursive; */
 
+/* body */
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 /* header */
 header {
     display: block;
     background-color: #FFECFF; 
     height: 100px;
+    position: relative;
 }
 
 .logo {
     float: left;
     width: 30%;
+    color: #660018;
 }
 
 .logo img {
@@ -24,12 +31,31 @@ header h1 {
 }
 
 .header-nav {
-    float: ;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    text-align: right;
+    color: #660018;
+    font-weight: 600;
+    width: 60%;
+    padding-top: 40px;
+    padding-right: 5px;
+
+
+}
+
+.nav {
+    float: left;
+    text-align: right;
+    width: 30%;
 }
 
 .socials {
-    float: right;
+    display: inline-block;
+    width: 20%;
     padding-right: 2%;
+    position:absolute;
+    right: 1%;
 }
 
 
@@ -58,7 +84,71 @@ header h1 {
     left: 23%;
     top: 40%;
     text-align: center;
+    color: #660018;
     
 }
 
+.reserve-palmier h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 24pt;
+}
+
 /* Footer */
+
+footer {
+    display: block;
+    background-color: #FFECFF; 
+    height: 300px;
+    color: #660018;
+}
+
+.footer-title {
+    display: inline-block;
+    width: 600px;
+    padding-right: 100px;
+}
+
+.footer-title img {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.footer-title h3 {
+    font-family: 'Lobster', cursive;
+    margin-top: 5px;
+}
+
+.hours-heading {
+    display: inline-block;
+    width: 500px;
+}
+
+.hours-heading h3 {
+    display: inline-block;
+    width: 20%;
+    height: 50%;
+    font-family: 'Lobster', cursive;
+}
+
+.hours-heading ul {
+    font-family: 'Josefin Sans';
+}
+
+.contact-us {
+    display: inline-block;
+    width: 500px;
+}
+
+.contact-info {
+    display: inline-block;
+    width: 60%;
+}
+
+
+
+/* Hero Section */
+.white-space {
+    height: 500px;
+}
